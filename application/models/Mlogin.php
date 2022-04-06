@@ -11,21 +11,14 @@ class Mlogin extends CI_Model {
 			$id_usu = 0;
 			if ($usuario)
 				{
-					//$ds=ldap_connect("PDVSA.COM");
-					//@ldap_set_option($ds,LDAP_OP_PROTOCOL_VERSION, 3);
-					//$bind=@ldap_bind($ds,$usuario."@PDVSA.COM",$clave);
+					//Codigo de acceso del sistema esta incompleto ya que contiene informacion confidencial del domain control PDVSA
+					
 				   // $bind=1;
 				   $indicador=$this->Mseguridad_usuario->indicador($usuario);
 					//if ($bind==1)
 					if($indicador==1)
 						{ 
-							//$sr=ldap_search($ds,"OU=Usuarios,DC=pdvsa,DC=com","uid=$usuario");
-							//$entrada = ldap_first_entry($ds, $sr); 
-							//$atributos =ldap_get_attributes($ds,$entrada);				
-							//$nombre   = utf8_encode($atributos['givenName'][0]);
-							//$apellido = utf8_encode($atributos['sn'][0]);		
-							//$cedula   = $atributos['pdvsacom-AD-cedula'][0];
-	
+							
 
 							//	print_r($consulta);exit;
 							//$indicador=$this->Mseguridad_usuario->indicador($usuario);
