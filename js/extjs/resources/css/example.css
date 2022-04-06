@@ -1,0 +1,85 @@
+/ *!
+ * Ext JS
+ * Derechos de autor (c) 2006-2012 Sencha Inc.
+ * Licensing@sencha.com
+ * Http://www.sencha.com/license
+ * /
+body {
+    padding: 20px;
+    padding-top: 32px;
+}
+.x-body {
+    font-family: helvética, Tahoma, Verdana, sans-serif;
+    font-size: 13px;
+}
+p {
+    margin-bottom: 15px;
+}
+h1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 14px;
+    color: # 333;
+    font-weight: bold;
+    margen: 10px 0;
+}
+.example-info {
+    Ancho: 150px;
+    frontera: 1px solid # c3daf9;
+    border-top: #DCEAFB sólido 1px;
+    border-left: #DCEAFB sólido 1px;
+    background: # ecf5fe url (info-bg.gif) repeat-x;
+    font-size: 10px;
+    padding: 8px;
+}
+pre.code {
+    background: # F8F8F8;
+    frontera: 1px solid # e8e8e8;
+    padding: 10px;
+    margen: 10px;
+    margin-left: 0px;
+    border-left: 5px solid # e8e8e8;
+    font-size: 12px importante;
+    line-height: 14px importante;
+}
+.msg .x-box-mc {
+    font-size: 14px;
+}
+# Msg-div {
+    position: absolute;
+    izquierda: 35%;
+    top: 10px;
+    Ancho: 300px;
+    z-index: 20.000;
+}
+# Msg-div .msg {
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    background: # F6F6F6;
+    frontera: #ccc sólido 2px;
+    margin-top: 2px;
+    padding: 10px 15px;
+    color: # 555;
+}
+# Msg-div .msg h3 {
+    margin: 0 0 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+# Msg-div .msg p {
+    margin: 0;
+}
+.x-grid3-row-cuerpo p {
+    margen: 5px 5px 10px 5px importante;
+}
+
+.feature-list {
+    margin-bottom: 15px;
+}
+.feature lista li {
+    list-style: disco;
+    margin-left: 17px;
+    margin-bottom: 4px;
+}

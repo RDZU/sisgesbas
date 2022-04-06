@@ -1,0 +1,76 @@
+H1,H2,H3,H4 { text-align: center;
+    margin-bottom: 20px;
+}
+Table {text-align: justify;
+font-size: 12px;
+}
+Table > thead{
+    background: #CC0000;
+    color: white;
+
+}
+
+#table_length{
+	margin-top: 5px;
+}
+td ,th{
+    padding-top: 1px !important;
+    padding-left: 2px !important;
+    padding-bottom: 1px !important;
+    padding-right: 2px !important   
+} 
+
+/*    
+#select.input-sm {
+
+height: 24px !important;
+}*/
+/*
+#Tablas{  
+margin-top: 30px;
+    margin-left: 100px;
+}*/
+
+.table_length{
+	margin-top: -4px !important;
+}
+#text{
+	margin-top: -4px !important;
+}
+#botones{ 
+    margin-bottom: 20px;
+}
+#Tablas_vTareas{
+	margin-top: 100px;
+	margin-left: -700px;
+}
+
+form{
+	margin-left:6px;
+}
+label {
+	font-size: 12px;
+}
+.form-control{
+	height: 27px;
+	font-size: 12px;
+}
+
+.mensaje-error{
+	color:red;
+	text-align:center;
+}/*
+.input-sm{
+	margin-top:-4px;
+}*/
+#spam{
+    margin-right: 500px;
+}
+
+#btnIngresar button{
+    margin-top: -4px;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+	background-color:#EDF1FD;
+  }

@@ -1,0 +1,40 @@
+BODY  {
+	font-family : verdana,arial,helvetica;
+	font-size : 10pt;
+	background-color : #ffffff;
+}
+
+TD  {
+	font-family : verdana,arial,helvetica;
+	font-size : 10pt;
+}
+
+INPUT  {
+	font-family : verdana,arial,helvetica;
+	font-size : 8pt;
+}
+
+TEXTAREA  {
+	font-family : verdana,arial,helvetica;
+	font-size : 8pt;
+}
+
+SELECT  {
+	font-family : verdana,arial,helvetica;
+	font-size : 8pt;
+}
+
+.altn  {
+	font-family : verdana,arial,helvetica;
+	font-size : 10pt;
+	color: #ffffff;
+	background-color: #666666;
+}
+
+.tit  {
+	font-family : verdana,arial,helvetica;
+	font-size : 10pt;
+	color: #ffffff;
+	background-color: #333333;
+	font-weight: bold;
+}

@@ -1,0 +1,857 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #aaaaaa; FONT-SIZE: 12px; MARGIN: 0px; SCROLLBAR-HIGHLIGHT-COLOR: #aaaaaa; SCROLLBAR-SHADOW-COLOR: #aaaaaa; COLOR: #444444; SCROLLBAR-3DLIGHT-COLOR: #dddddd; SCROLLBAR-ARROW-COLOR: #ffffff; SCROLLBAR-TRACK-COLOR: #cccccc; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; SCROLLBAR-DARKSHADOW-COLOR: #666666; BACKGROUND-COLOR: #ffffff
+}
+IMG {
+	BEHAVIOR: url("include/pngbehavior.htc")
+}
+.body {
+	FONT-SIZE: 12px
+}
+TABLE {
+	FONT-SIZE: 11px; COLOR: #444444
+}
+TD {
+	FONT-SIZE: 11px; COLOR: #444444
+}
+P {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 10px
+}
+FORM {
+	MARGIN: 0px
+}
+H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 20px; MARGIN-BOTTOM: 8px; COLOR: #ea1313; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif
+}
+H2 {
+	MARGIN-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: 18px; MARGIN-BOTTOM: 0px; COLOR: #666666; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif
+}
+H3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; MARGIN-BOTTOM: 4px; COLOR: #003399; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif
+}
+H4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; MARGIN-BOTTOM: 2px; COLOR: #333333; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif
+}
+H5 {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; MARGIN-BOTTOM: 1px; COLOR: #333333; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif
+}
+LI {
+	MARGIN-BOTTOM: 2px; MARGIN-LEFT: 6px; LIST-STYLE-TYPE: square
+}
+UL {
+	MARGIN-TOP: 2px
+}
+HR {
+	HEIGHT: 1px
+}
+A:link {
+	FONT-SIZE: 11px; COLOR: #444444; TEXT-DECORATION: underline
+}
+A:visited {
+	FONT-SIZE: 11px; COLOR: #444444; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #666666; TEXT-DECORATION: underline
+}
+.button {
+	BORDER-TOP: #444444 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../images/welcomeBg.gif); BORDER-BOTTOM: #444444 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-IMAGE: url(../images/welcomeBg.gif)
+}
+.buttonOn {
+	BORDER-RIGHT: #444444 1px solid; BACKGROUND-POSITION: 50% top; BORDER-TOP: #444444 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../images/formButtonBgOn.gif); BORDER-LEFT: #444444 1px solid; COLOR: #444444; BORDER-BOTTOM: #444444 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #ffffff
+}
+.button:hover {
+	BORDER-RIGHT: #444444 1px solid; BACKGROUND-POSITION: 50% top; BORDER-TOP: #444444 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../images/formButtonBgOn.gif); BORDER-LEFT: #444444 1px solid; COLOR: #444444; BORDER-BOTTOM: #444444 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #ffffff
+}
+.button:unknown {
+	BORDER-RIGHT: #444444 1px solid; BACKGROUND-POSITION: 50% top; BORDER-TOP: #444444 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../images/formButtonBgOn.gif); BORDER-LEFT: #444444 1px solid; COLOR: #444444; BORDER-BOTTOM: #444444 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #ffffff
+}
+.buttonOn:unknown {
+	BORDER-RIGHT: #444444 1px solid; BACKGROUND-POSITION: 50% top; BORDER-TOP: #444444 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../images/formButtonBgOn.gif); BORDER-LEFT: #444444 1px solid; COLOR: #444444; BORDER-BOTTOM: #444444 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #ffffff
+}
+INPUT {
+	BORDER-RIGHT: #888888 1px solid; BORDER-TOP: #888888 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #888888 1px solid; BORDER-BOTTOM: #888888 1px solid; BACKGROUND-COLOR: #ffffff
+}
+SELECT {
+	BORDER-RIGHT: #888888 1px solid; BORDER-TOP: #888888 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #888888 1px solid; BORDER-BOTTOM: #888888 1px solid; BACKGROUND-COLOR: #ffffff
+}
+TEXTAREA {
+	BORDER-RIGHT: #888888 1px solid; BORDER-TOP: #888888 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #888888 1px solid; BORDER-BOTTOM: #888888 1px solid; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.checkbox {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; MARGIN: 0px; VERTICAL-ALIGN: bottom; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; BACKGROUND-COLOR: transparent
+}
+.radio {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; MARGIN: 0px; VERTICAL-ALIGN: bottom; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; BACKGROUND-COLOR: transparent
+}
+.contentBox {
+	BORDER-RIGHT: #9e9e9e 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #9e9e9e 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #9e9e9e 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #9e9e9e 1px solid; BACKGROUND-COLOR: #efefef
+}
+.teamNoticeBox {
+	BORDER-RIGHT: #980000 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #980000 1px solid; PADDING-LEFT: 5px; BORDER-LEFT: #980000 1px solid; COLOR: #00568c; BORDER-BOTTOM: #980000 1px solid; BACKGROUND-COLOR: #eeeeee
+}
+A.body:link {
+	FONT-SIZE: 12px; COLOR: #444444; TEXT-DECORATION: underline
+}
+A.body:visited {
+	FONT-SIZE: 12px; COLOR: #444444; TEXT-DECORATION: underline
+}
+A.body:hover {
+	COLOR: #666666; TEXT-DECORATION: underline
+}
+.myArea {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px
+}
+A.myAreaLink:link {
+	COLOR: #444444; TEXT-DECORATION: none
+}
+A.myAreaLink:visited {
+	COLOR: #444444; TEXT-DECORATION: none
+}
+A.myAreaLink:hover {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.currentTab {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #6e6e6e; PADDING-TOP: 1px
+}
+A.currentTab:link {
+	COLOR: #222222; TEXT-DECORATION: none
+}
+A.currentTab:visited {
+	COLOR: #222222; TEXT-DECORATION: none
+}
+A.currentTab:hover {
+	COLOR: #444444; TEXT-DECORATION: none
+}
+.otherTab {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #6e6e6e
+}
+A.otherTab:link {
+	COLOR: #6e6e6e; TEXT-DECORATION: none
+}
+A.otherTab:visited {
+	COLOR: #6e6e6e; TEXT-DECORATION: none
+}
+A.otherTab:hover {
+	COLOR: #3c3c3c; TEXT-DECORATION: none
+}
+#groupTabs {
+	MARGIN-TOP: 20px
+}
+.subTabs {
+	FONT-SIZE: 12px; BORDER-BOTTOM: #000000 1px solid
+}
+.subTabs TD {
+	PADDING-LEFT: 1em; FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; BACKGROUND-COLOR: #acacac
+}
+A.subTabLink:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+A.subTabLink:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+A.subTabLink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.moreHandle {
+	BACKGROUND: url(../images/more.gif) no-repeat left bottom
+}
+.subMenu {
+	BORDER-RIGHT: #9e9e9e 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #9e9e9e 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #9e9e9e 1px solid; BACKGROUND-COLOR: #efefef
+}
+.subMenuTDIcon {
+	BORDER-RIGHT: #fefefe 1px solid; PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 1px; BACKGROUND-COLOR: #efefef
+}
+.subMenuTD {
+	FONT-SIZE: 11px; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 1px; BORDER-BOTTOM: #ededed 1px solid; BACKGROUND-COLOR: #dfdfdf
+}
+A.subMenuLink:link {
+	PADDING-LEFT: 0px; COLOR: #444444; BORDER-BOTTOM: 0px; TEXT-DECORATION: none
+}
+A.subMenuLink:visited {
+	PADDING-LEFT: 0px; COLOR: #444444; BORDER-BOTTOM: 0px; TEXT-DECORATION: none
+}
+A.subMenuLink:hover {
+	COLOR: #666666; BORDER-BOTTOM: 0px; TEXT-DECORATION: none
+}
+.moduleTitle {
+	BORDER-BOTTOM: #aaaaaa 1px solid
+}
+.welcome {
+	PADDING-LEFT: 10px; 
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 12px; 
+	COLOR: #003399; 
+	BORDER-BOTTOM: #000000 1px solid; 
+	BACKGROUND-IMAGE: url(../images/welcomeBg.gif);
+.searchField {
+ BORDER-TOP: #323232 1px solid; FONT-SIZE: 11px;  BORDER-BOTTOM: #323232 1px solid; BACKGROUND-IMAGE: url(../images/welcomeBg.gif)}
+}
+.search {
+	PADDING-RIGHT: 10px; COLOR: #ffffff; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-IMAGE: url(../images/welcomeBg.gif); TEXT-ALIGN: right
+}
+.searchButton {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 10px; BORDER-TOP: 0px; BEHAVIOR: url("include/pngbehavior.htc"); BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; BACKGROUND-IMAGE:(../images/welcomeBg.gif) 
+}
+.date {
+	PADDING-RIGHT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #444444; BORDER-BOTTOM: #bbbbbb 1px solid; BACKGROUND-COLOR: #dddddd
+}
+.lastView {
+	PADDING-LEFT: 10px; COLOR: #666666; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #dddddd
+}
+A.lastViewLink:link {
+	PADDING-LEFT: 0px; COLOR: #444444; BORDER-BOTTOM: 0px; TEXT-DECORATION: underline
+}
+A.lastViewLink:visited {
+	PADDING-LEFT: 0px; COLOR: #444444; BORDER-BOTTOM: 0px; TEXT-DECORATION: underline
+}
+A.lastViewLink:hover {
+	COLOR: #666666; BORDER-BOTTOM: 0px; TEXT-DECORATION: none
+}
+TABLE.leftColumnModuleHead TH {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; COLOR: #003399; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+.leftColumnModuleS3 {
+	BORDER-RIGHT: #9e9e9e 1px solid; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 5px; BORDER-LEFT: #9e9e9e 1px solid; COLOR: #666666; PADDING-TOP: 5px; BORDER-BOTTOM: #9e9e9e 1px solid; BACKGROUND-COLOR: #dfdfdf
+}
+A.leftColumnModuleS3Link:link {
+	PADDING-LEFT: 0px; COLOR: #666666; BORDER-BOTTOM: 0px; TEXT-DECORATION: underline
+}
+A.leftColumnModuleS3Link:visited {
+	PADDING-LEFT: 0px; COLOR: #666666; BORDER-BOTTOM: 0px; TEXT-DECORATION: underline
+}
+A.leftColumnModuleS3Link:hover {
+	COLOR: #444444; BORDER-BOTTOM: 0px; TEXT-DECORATION: underline
+}
+.listView {
+	BORDER-RIGHT: #9e9e9e 1px solid; BORDER-TOP: #9e9e9e 1px solid; BORDER-LEFT: #9e9e9e 1px solid; BORDER-BOTTOM: #9e9e9e 1px solid
+}
+TABLE.listView TH {
+	PADDING-RIGHT: 5px; BACKGROUND-POSITION: 50% bottom; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../images/listViewBg.gif); COLOR: #666666; BORDER-BOTTOM: #980000 1px solid; BACKGROUND-REPEAT: repeat-x; HEIGHT: 20px; BACKGROUND-COLOR: #f8f7f7; TEXT-ALIGN: left
+}
+.listViewThS1 {
+	PADDING-RIGHT: 5px; BACKGROUND-POSITION: 50% bottom; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../images/listViewBg.gif); COLOR: #666666; BORDER-BOTTOM: #980000 1px solid; BACKGROUND-REPEAT: repeat-x; HEIGHT: 20px; BACKGROUND-COLOR: #f8f7f7; TEXT-ALIGN: left
+}
+.listViewSubHeadS1 {
+	BACKGROUND-COLOR: #ffffff
+}
+H5.listViewSubHeadS1 {
+	MARGIN-TOP: 1px; FONT-WEIGHT: bold; FONT-SIZE: 13px; MARGIN-BOTTOM: 1px; COLOR: #666666
+}
+TABLE.listview TH A:link {
+	FONT-WEIGHT: bold; COLOR: #444444; TEXT-DECORATION: none
+}
+TABLE.listview TH A:visited {
+	FONT-WEIGHT: bold; COLOR: #444444; TEXT-DECORATION: none
+}
+TABLE.listview TH A:hover {
+	COLOR: #222222; TEXT-DECORATION: none
+}
+A.listViewThLinkS1:link {
+	FONT-WEIGHT: bold; COLOR: #666666; TEXT-DECORATION: none
+}
+A.listViewThLinkS1:visited {
+	FONT-WEIGHT: bold; COLOR: #444444; TEXT-DECORATION: none
+}
+A.listViewThLinkS1:hover {
+	COLOR: #222222; TEXT-DECORATION: none
+}
+A.listViewTdLinkS1:link {
+	FONT-SIZE: 12px; COLOR: #002780; TEXT-DECORATION: none
+}
+A.listViewTdLinkS1:visited {
+	FONT-SIZE: 12px; COLOR: #002780; TEXT-DECORATION: none
+}
+A.listViewTdLinkS1:hover {
+	TEXT-DECORATION: underline
+}
+A.listViewTdToolsS1:link {
+	TEXT-DECORATION: none
+}
+A.listViewTdToolsS1:visited {
+	TEXT-DECORATION: none
+}
+A.listViewTdToolsS1:hover {
+	TEXT-DECORATION: none
+}
+.evenListRowS1 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 4px; COLOR: #666666; PADDING-TOP: 2px
+}
+.oddListRowS1 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 4px; COLOR: #000000; PADDING-TOP: 2px
+}
+.listViewHRS1 {
+	BACKGROUND-COLOR: #cccccc
+}
+.pageNumbers {
+	COLOR: #444444
+}
+.listViewPaginationTdS1 {
+	PADDING-RIGHT: 1px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 3px; COLOR: #999999; PADDING-TOP: 3px; BORDER-BOTTOM: #9e9e9e 1px solid; BACKGROUND-COLOR: #eeeeee
+}
+A.listViewPaginationLinkS1:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: ##003399; TEXT-DECORATION: none
+}
+A.listViewPaginationLinkS1:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #e90000; TEXT-DECORATION: none
+}
+A.listViewPaginationLinkS1:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.listViewCheckLink:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; TEXT-DECORATION: none
+}
+A.listViewCheckLink:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; TEXT-DECORATION: none
+}
+A.listViewCheckLink:hover {
+	FONT-SIZE: 10px; TEXT-DECORATION: none
+}
+A.utilsLink:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #003399; TEXT-DECORATION: none
+}
+A.utilsLink:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #b20000; TEXT-DECORATION: none
+}
+A.utilsLink:hover {
+	FONT-SIZE: 11px; COLOR: #ff0000; TEXT-DECORATION: none
+}
+.listViewCalCurrentAppt {
+	BACKGROUND-COLOR: #75af4f
+}
+.listViewCalOtherAppt {
+	BACKGROUND-COLOR: #4d5eaa
+}
+.listViewCalConflictAppt {
+	BACKGROUND-COLOR: #aa4d4d
+}
+.listViewCalCurrentApptLgnd {
+	BORDER-RIGHT: #444444 1px solid; BORDER-TOP: #444444 1px solid; BORDER-LEFT: #444444 1px solid; BORDER-BOTTOM: #444444 1px solid; BACKGROUND-COLOR: #75af4f
+}
+.listViewCalOtherApptLgnd {
+	BORDER-RIGHT: #444444 1px solid; BORDER-TOP: #444444 1px solid; BORDER-LEFT: #444444 1px solid; BORDER-BOTTOM: #444444 1px solid; BACKGROUND-COLOR: #4d5eaa
+}
+.listViewCalConflictApptLgnd {
+	BORDER-RIGHT: #444444 1px solid; BORDER-TOP: #444444 1px solid; BORDER-LEFT: #444444 1px solid; BORDER-BOTTOM: #444444 1px solid; BACKGROUND-COLOR: #aa4d4d
+}
+.chartBox {
+	BORDER-RIGHT: #9e9e9e 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #9e9e9e 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #9e9e9e 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #9e9e9e 1px solid; BACKGROUND-COLOR: #ffffff
+}
+A.chartToolsLink:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #e90000; TEXT-DECORATION: none
+}
+A.chartToolsLink:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #e90000; TEXT-DECORATION: none
+}
+A.chartToolsLink:hover {
+	FONT-SIZE: 10px; COLOR: #ff0000; TEXT-DECORATION: none
+}
+TABLE.chartForm {
+	BORDER-RIGHT: #9e9e9e 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #9e9e9e 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #9e9e9e 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #9e9e9e 1px solid; BACKGROUND-COLOR: #efefef
+}
+TABLE.chartForm TD {
+	BACKGROUND-COLOR: #efefef
+}
+.tabForm {
+	BORDER-RIGHT: #9e9e9e 1px solid; PADDING-RIGHT: 5px; BACKGROUND-POSITION: 50% bottom; BORDER-TOP: #9e9e9e 1px solid; PADDING-LEFT: 5px; BACKGROUND-COLOR: #F9F9F9; PADDING-BOTTOM: 5px; BORDER-LEFT: #9e9e9e 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #9e9e9e 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-IMAGE: (../images/welcomeBg.gif);
+}
+.subpanelTabForm {
+	BORDER-RIGHT: #9e9e9e 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #9e9e9e 1px solid; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; BORDER-LEFT: #9e9e9e 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #9e9e9e 1px solid; BACKGROUND-COLOR: #efefef
+}
+.subpanelTabForm P {
+	MARGIN-TOP: 15px; MARGIN-BOTTOM: 5px
+}
+.subpanelTabForm H3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px
+}
+H4.dataLabel {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; MARGIN-BOTTOM: 2px; COLOR: #003399
+}
+H5.dataLabel {
+	MARGIN-TOP: 1px; FONT-WEIGHT: bold; FONT-SIZE: 13px; MARGIN-BOTTOM: 1px; COLOR: #003399
+}
+.dataLabel {
+	FONT-WEIGHT: bold; VERTICAL-ALIGN: top; COLOR: #666666
+}
+.dataField {
+	FONT-WEIGHT: normal; VERTICAL-ALIGN: top
+}
+.tabFormAddDel {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; VERTICAL-ALIGN: middle; TEXT-ALIGN: center
+}
+A.tabFormAdvLink:link {
+	FONT-SIZE: 10px; COLOR: #e90000; TEXT-DECORATION: none
+}
+A.tabFormAdvLink:visited {
+	FONT-SIZE: 10px; COLOR: #e90000; TEXT-DECORATION: none
+}
+A.tabFormAdvLink:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.tabDetailView {
+	BORDER-RIGHT: #444444 1px solid; BORDER-TOP: #444444 1px solid; BORDER-LEFT: #444444 1px solid; BORDER-BOTTOM: #444444 1px solid; BACKGROUND-COLOR: #cccccc
+}
+.tabDetailViewDL {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; VERTICAL-ALIGN: top; COLOR: #666666; PADDING-TOP: 2px; BACKGROUND-COLOR: #eeeeee; TEXT-ALIGN: right
+}
+H4.tabDetailViewDL {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; MARGIN-BOTTOM: 2px; COLOR: #666666; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-ALIGN: left
+}
+.tabDetailViewDF {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; VERTICAL-ALIGN: top; COLOR: #000000; PADDING-TOP: 2px; BACKGROUND-COLOR: #fafafa
+}
+A.tabDetailViewDFLink:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #002780; TEXT-DECORATION: underline
+}
+A.tabDetailViewDFLink:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #002780; TEXT-DECORATION: underline
+}
+A.tabDetailViewDFLink:hover {
+	COLOR: #002780; TEXT-DECORATION: none
+}
+.tabDetailView2 {
+	BORDER-RIGHT: #888888 1px solid; BORDER-TOP: #888888 1px solid; BORDER-LEFT: #888888 1px solid; BORDER-BOTTOM: #888888 1px solid; BACKGROUND-COLOR: #cccccc
+}
+.tabDetailViewDL2 {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; VERTICAL-ALIGN: top; COLOR: #888888; PADDING-TOP: 2px; BACKGROUND-COLOR: #dfdfdf
+}
+.tabDetailViewDF2 {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; VERTICAL-ALIGN: top; COLOR: #222222; PADDING-TOP: 2px; BACKGROUND-COLOR: #f2f2f2
+}
+A.tabDetailViewDL2Link:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #555555; TEXT-DECORATION: none
+}
+A.tabDetailViewDL2Link:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #555555; TEXT-DECORATION: none
+}
+A.tabDetailViewDL2Link:hover {
+	COLOR: #555555; TEXT-DECORATION: underline
+}
+.monthBox {
+	BORDER-RIGHT: #222222 1px solid; BORDER-TOP: #222222 1px solid; BORDER-LEFT: #222222 1px solid; BORDER-BOTTOM: #222222 1px solid
+}
+.monthHeader {
+	BACKGROUND-POSITION: 50% bottom; BACKGROUND-IMAGE: url(../images/calendarHeaderBg.gif); PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #980000 2px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #fbfbfb
+}
+.monthFooterPrev {
+	BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BACKGROUND-COLOR: #dddddd
+}
+.monthFooterNext {
+	PADDING-RIGHT: 5px; BORDER-TOP: #ffffff 1px solid; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BACKGROUND-COLOR: #dddddd
+}
+.monthHeaderH3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #333333; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif
+}
+.monthCalBody {
+	BACKGROUND-COLOR: #dddddd
+}
+.monthHeaderPrevTd {
+	PADDING-LEFT: 5px
+}
+A.NextPrevLink:link {
+	FONT-WEIGHT: bold; COLOR: #666666; TEXT-DECORATION: none
+}
+A.NextPrevLink:visited {
+	FONT-WEIGHT: bold; COLOR: #666666; TEXT-DECORATION: none
+}
+A.NextPrevLink:hover {
+	FONT-WEIGHT: bold; COLOR: #444444; TEXT-DECORATION: none
+}
+.monthHeaderNextTd {
+	PADDING-RIGHT: 5px
+}
+.monthCalBodyTHWeek {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #eeeeee; PADDING-TOP: 5px; BACKGROUND-COLOR: #6f6f6f
+}
+.monthCalBodyTHDay {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #eeeeee; PADDING-TOP: 5px; BACKGROUND-COLOR: #666666
+}
+.monthCalBodyWeek {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; VERTICAL-ALIGN: top; COLOR: #ffffff; PADDING-TOP: 5px; BACKGROUND-COLOR: #9a9a9a
+}
+A.monthCalBodyWeekLink:link {
+	FONT-SIZE: 11px; COLOR: #eeeeee
+}
+A.monthCalBodyWeekLink:visited {
+	FONT-SIZE: 11px; COLOR: #eeeeee
+}
+A.monthCalBodyWeekLink:hover {
+	FONT-SIZE: 11px
+}
+.monthCalBodyTodayWeekDay {
+	BORDER-RIGHT: #600000 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #600000 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #600000 1px solid; COLOR: #444444; PADDING-TOP: 3px; BORDER-BOTTOM: #600000 1px solid; BACKGROUND-COLOR: #fafafa; TEXT-ALIGN: right
+}
+.monthCalBodyWeekDay {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; COLOR: #444444; PADDING-TOP: 3px; BACKGROUND-COLOR: #fafafa; TEXT-ALIGN: right
+}
+.monthCalBodyTodayWeekEnd {
+	BORDER-RIGHT: #600000 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #600000 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #600000 1px solid; COLOR: #444444; PADDING-TOP: 3px; BORDER-BOTTOM: #600000 1px solid; BACKGROUND-COLOR: #e9e9e9; TEXT-ALIGN: right
+}
+.monthCalBodyWeekEnd {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; COLOR: #444444; PADDING-TOP: 3px; BACKGROUND-COLOR: #e9e9e9; TEXT-ALIGN: right
+}
+A.monthCalBodyWeekDayDateLink:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #444444
+}
+A.monthCalBodyWeekDayDateLink:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #444444
+}
+A.monthCalBodyWeekDayDateLink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #444444
+}
+A.monthCalBodyWeekEndDateLink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666
+}
+A.monthCalBodyDayItemLink:link {
+	FONT-SIZE: 10px
+}
+A.monthCalBodyDayItemLink:visited {
+	FONT-SIZE: 10px
+}
+A.monthCalBodyDayItemLink:hover {
+	FONT-SIZE: 10px
+}
+.monthCalBodyDayItem {
+	BORDER-RIGHT: #aaaaaa 1px solid; BORDER-TOP: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: #aaaaaa 1px solid; BACKGROUND-COLOR: #e5e5e5
+}
+.monthCalBodyDayIconTd {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 2px; VERTICAL-ALIGN: top
+}
+.monthCalBodyDayItemTd {
+	VERTICAL-ALIGN: top;
+	text-align: left;
+}
+.monthViewDayHeight {
+	HEIGHT: 100px
+}
+.yearViewDayHeight {
+	HEIGHT: 40px
+}
+.dailyCalBodyTime {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-WEIGHT: bold; PADDING-BOTTOM: 3px; VERTICAL-ALIGN: top; COLOR: #ffffff; PADDING-TOP: 3px; HEIGHT: 20px; BACKGROUND-COLOR: #9a9a9a
+}
+.dailyCalBodyItems {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; COLOR: #444444; PADDING-TOP: 3px; BACKGROUND-COLOR: #fafafa; TEXT-ALIGN: left
+}
+A.weekCalBodyDayLink:link {
+	COLOR: #ffffff
+}
+A.weekCalBodyDayLink:visited {
+	COLOR: #ffffff
+}
+A.weekCalBodyDayLink:hover {
+	COLOR: #ffffff
+}
+.yearCalBody {
+	BACKGROUND-COLOR: #f0f0f0
+}
+.yearCalBodyMonth {
+	BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-BOTTOM: #666666 1px solid; BACKGROUND-COLOR: #bbbbbb
+}
+A.yearCalBodyMonthLink:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #222222
+}
+A.yearCalBodyMonthLink:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #222222
+}
+A.yearCalBodyMonthLink:hover {
+	COLOR: #333333
+}
+H5.calSharedUser {
+	BORDER-TOP: #666666 1px solid; MARGIN-TOP: 0px; PADDING-LEFT: 5px; FONT-SIZE: 12px; COLOR: #ffffff; PADDING-TOP: 5px; BORDER-BOTTOM: #666666 1px solid; HEIGHT: 20px; BACKGROUND-COLOR: #9a9a9a
+}
+.todaysTask {
+	COLOR: #ff7800
+}
+.overdueTask {
+	COLOR: #ff0000
+}
+.required {
+	COLOR: #ff0000
+}
+.error {
+	COLOR: #ff0000
+}
+.success {
+	COLOR: #00ee00
+}
+.rssItemDate {
+	FONT-SIZE: 10px; COLOR: #666666
+}
+.dateFormat {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; FONT-STYLE: italic
+}
+.chartFootnote {
+	FONT-SIZE: 10px
+}
+.copyRight {
+	
+}
+A.copyRightLink:link {
+	
+}
+A.copyRightLink:visited {
+	
+}
+A.copyRightLink:hover {
+	
+}
+.tm {
+	FONT-SIZE: 8px; FONT-FAMILY: Verdana
+}
+.footer {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+A.footerLink:link {
+	
+}
+A.footerLink:visited {
+	
+}
+A.footerLink:hover {
+	
+}
+.footerHR {
+	COLOR: #666666
+}
+.schedulerDiv {
+	BORDER-RIGHT: #9e9e9e 1px solid; BORDER-TOP: #9e9e9e 1px solid; MARGIN-TOP: 0px; BORDER-LEFT: #9e9e9e 1px solid; WIDTH: 100%; BORDER-BOTTOM: #9e9e9e 1px solid; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: #fafafa
+}
+.schedulerTable {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; WIDTH: 100%; BORDER-BOTTOM: #dddddd 1px solid; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: #fafafa
+}
+.schedulerTopRow {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; BORDER-BOTTOM: #dddddd 1px solid; BORDER-COLLAPSE: collapse
+}
+.schedulerTimeRow {
+	BORDER-COLLAPSE: collapse
+}
+.schedulerTopDeleteHeaderCell {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; BORDER-BOTTOM: #dddddd 1px solid; BORDER-COLLAPSE: collapse
+}
+.schedulerDeleteHeaderCell {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; BORDER-BOTTOM: #dddddd 1px solid; BORDER-COLLAPSE: collapse
+}
+.schedulerTopDateCell {
+	BORDER-RIGHT: #dddddd 1px solid; BACKGROUND-POSITION: 50% bottom; BORDER-TOP: #dddddd 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(../images/listViewBg.gif); BORDER-LEFT: #dddddd 1px solid; BORDER-BOTTOM: #dddddd 1px solid; BACKGROUND-REPEAT: repeat-x; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: #f8f7f7
+}
+.schedulerTopHeaderCell {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; BORDER-BOTTOM: #dddddd 1px solid; BORDER-COLLAPSE: collapse
+}
+.schedulerAttendeeHeaderCell {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; BORDER-BOTTOM: #dddddd 1px solid; BORDER-COLLAPSE: collapse
+}
+.schedulerAttendeeHeaderCell {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; BORDER-BOTTOM: #dddddd 1px solid; BORDER-COLLAPSE: collapse
+}
+.schedulerTimeCell {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 12px; BORDER-LEFT: #dddddd 1px solid; BORDER-BOTTOM: #dddddd 1px solid; FONT-FAMILY: sans-serif; BORDER-COLLAPSE: collapse
+}
+.schedulerAttendeeCell {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; PADDING-LEFT: 4px; FONT-WEIGHT: normal; FONT-SIZE: 12px; OVERFLOW: hidden; BORDER-LEFT: #dddddd 1px solid; WIDTH: 125px; BORDER-BOTTOM: #dddddd 1px solid; BORDER-COLLAPSE: collapse; HEIGHT: 14px; TEXT-DECORATION: none
+}
+.schedulerAttendeeDeleteCell {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; PADDING-LEFT: 4px; BORDER-LEFT: #dddddd 1px solid; COLOR: #000000; BORDER-BOTTOM: #dddddd 1px solid; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: #ffdddd; TEXT-ALIGN: left
+}
+.schedulerAttendeeIconCell {
+	BORDER-RIGHT: #dddddd 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #dddddd 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: #dddddd 1px solid; WIDTH: 16px; COLOR: #000000; PADDING-TOP: 0px; BORDER-BOTTOM: #dddddd 1px solid; BORDER-COLLAPSE: collapse; HEIGHT: 18px
+}
+.schedulerSlotEmptyDiv {
+	BORDER-RIGHT: transparent 0px solid; BORDER-TOP: transparent 0px solid; BORDER-LEFT: transparent 0px solid; WIDTH: 100%; BORDER-BOTTOM: transparent 0px solid; HEIGHT: 100%
+}
+.schedulerSlotCellStartTime {
+	BORDER-RIGHT: #dddddd 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #dddddd 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: #75af4f 4px solid; WIDTH: 15px; PADDING-TOP: 0px; BORDER-BOTTOM: #dddddd 1px solid; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: #eeeeee
+}
+.schedulerSlotCellEndTime {
+	BORDER-RIGHT: #dddddd 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #dddddd 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: #ff0000 4px solid; WIDTH: 15px; PADDING-TOP: 0px; BORDER-BOTTOM: #dddddd 1px solid; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: #eeeeee
+}
+.schedulerSlotCellHour {
+	BORDER-RIGHT: #dddddd 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #dddddd 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: #dddddd 1px solid; WIDTH: 15px; PADDING-TOP: 0px; BORDER-BOTTOM: #dddddd 1px solid; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: #eeeeee
+}
+.schedulerAttendeeRow {
+	HEIGHT: 18px
+}
+.schedulerEvenListRow {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 4px; COLOR: #000000; PADDING-TOP: 2px; BACKGROUND-COLOR: #f1f1f1
+}
+.schedulerOddListRow {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 4px; COLOR: #000000; PADDING-TOP: 2px; BACKGROUND-COLOR: #fdfdfd
+}
+UL.tablist {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 3px; FONT: bold 11px Arial, Verdana, Helvetica, sans-serif; MARGIN-LEFT: 0px; PADDING-TOP: 3px; BORDER-BOTTOM: #9e9e9e 1px solid
+}
+UL.tablist LI {
+	DISPLAY: inline; MARGIN: 0px; LIST-STYLE-TYPE: none
+}
+UL.tablist LI A {
+	BORDER-RIGHT: #9e9e9e 1px solid; PADDING-RIGHT: 0.5em; BORDER-TOP: #9e9e9e 1px solid; PADDING-LEFT: 0.5em; BACKGROUND: #f8f8f9; PADDING-BOTTOM: 3px; MARGIN-LEFT: 3px; BORDER-LEFT: #9e9e9e 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: medium none; TEXT-DECORATION: none
+}
+UL.tablist LI A:link {
+	COLOR: #448; TEXT-DECORATION: none
+}
+UL.tablist LI A:visited {
+	COLOR: #667; TEXT-DECORATION: none
+}
+UL.tablist LI A:hover {
+	BORDER-RIGHT: #888888 1px solid; BORDER-TOP: #888888 1px solid; BACKGROUND: #efefef; BORDER-LEFT: #888888 1px solid; COLOR: #000
+}
+UL.tablist LI A.current {
+	BACKGROUND: #efefef; BORDER-BOTTOM: #efefef 1px solid
+}
+UL.subpanelTablist {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 3px; FONT: bold 11px Arial, Verdana, Helvetica, sans-serif; MARGIN-LEFT: 0px; PADDING-TOP: 3px; BORDER-BOTTOM: #9e9e9e 1px solid
+}
+UL.subpanelTablist LI {
+	DISPLAY: inline; MARGIN: 0px; LIST-STYLE-TYPE: none
+}
+UL.subpanelTablist LI A {
+	BORDER-RIGHT: #9e9e9e 1px solid; PADDING-RIGHT: 0.5em; BORDER-TOP: #9e9e9e 1px solid; PADDING-LEFT: 0.5em; BACKGROUND: #f8f8f9; PADDING-BOTTOM: 3px; MARGIN-LEFT: 3px; BORDER-LEFT: #9e9e9e 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: medium none; TEXT-DECORATION: none
+}
+UL.subpanelTablist LI A:link {
+	COLOR: #448; TEXT-DECORATION: none
+}
+UL.subpanelTablist LI A:visited {
+	COLOR: #667; TEXT-DECORATION: none
+}
+UL.subpanelTablist LI A:hover {
+	BORDER-RIGHT: #888888 1px solid; BORDER-TOP: #888888 1px solid; BACKGROUND: #efefef; BORDER-LEFT: #888888 1px solid; COLOR: #000
+}
+UL.subpanelTablist LI A.current {
+	BACKGROUND: #efefef; BORDER-BOTTOM: #efefef 1px solid
+}
+.sqsFloater {
+	PADDING-RIGHT: 0px; DISPLAY: none; PADDING-LEFT: 0px; Z-INDEX: 2; RIGHT: 0px; PADDING-BOTTOM: 0px; BOTTOM: 0px; PADDING-TOP: 0px; POSITION: absolute
+}
+.sqsFloater TD {
+	BORDER-RIGHT: #9e9e9e 1px inset; BORDER-TOP: #9e9e9e 1px inset; BORDER-LEFT: #9e9e9e 1px inset; COLOR: black; BORDER-BOTTOM: #9e9e9e 1px inset; BACKGROUND-COLOR: #fdfdfd
+}
+.sqsMatchedSmartInputItem {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; MARGIN: 0px; CURSOR: hand; PADDING-TOP: 2px
+}
+.sqsSelectedSmartInputItem {
+	BACKGROUND-COLOR: #deefff
+}
+#sqsSmartInputResults {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.sqsNoMatch {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; COLOR: #980000; PADDING-TOP: 2px; BACKGROUND-COLOR: #eeeeee
+}
+.olFontClass {
+	
+}
+.olFontClass A {
+	
+}
+.olCapFontClass {
+	FONT-WEIGHT: bold; COLOR: #222222; BACKGROUND-COLOR: #dfdfdf
+}
+.olOptionsCapFontClass {
+	FONT-WEIGHT: bold; COLOR: #222222; BACKGROUND-COLOR: #f1f1f1
+}
+.olCapFontClass A {
+	FONT-SIZE: 9px; COLOR: #dfdfdf
+}
+.olFgClass TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 2px; BACKGROUND-COLOR: #f1f1f1
+}
+.olOptionsFgClass TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.olCgClass TD {
+	BORDER-TOP: #f1f1f1 1px solid; PADDING-LEFT: 5px; BORDER-BOTTOM: #aaaaaa 1px solid; BACKGROUND-COLOR: #dfdfdf
+}
+.olOptionsCgClass TD {
+	BORDER-TOP: #f1f1f1 1px solid; PADDING-LEFT: 5px; BORDER-BOTTOM: #aaaaaa 1px solid; BACKGROUND-COLOR: #f1f1f1
+}
+.olCgClass {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px
+}
+.olBgClass {
+	BACKGROUND-COLOR: #9e9e9e
+}
+.olCloseFontClass {
+	PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #dfdfdf; TEXT-ALIGN: right
+}
+.olOptionsCloseFontClass {
+	PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #dfdfdf; TEXT-ALIGN: right
+}
+.aclAll {
+	FONT-WEIGHT: bold; COLOR: #008000
+}
+.aclOwner {
+	FONT-WEIGHT: bold; COLOR: #000000
+}
+.aclNone {
+	FONT-WEIGHT: bold; COLOR: #ff0000
+}
+.aclEnabled {
+	FONT-WEIGHT: bold; COLOR: #008000
+}
+.aclDisabled {
+	FONT-WEIGHT: bold; COLOR: #ff0000
+}
+.aclAdmin {
+	FONT-WEIGHT: bold; COLOR: #0000ff
+}
+.aclNormal {
+	FONT-WEIGHT: bold; COLOR: #008000
+}
+UL.noBullet {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 0px; LIST-STYLE-TYPE: none
+}
+LI.noBullet {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+TABLE.tabForm TD UL LI {
+	MARGIN-BOTTOM: 10px; LIST-STYLE-TYPE: none
+}
+.helpButton {
+	FONT-WEIGHT: bold
+}
+.helpShortcut {
+	FONT-WEIGHT: bold
+}
+
+
+
+.altn  {
+	font-family : verdana,arial,helvetica;
+	font-size : 10pt;
+	color: #ffffff;
+	background-color: #666666;
+}
+
+.tit  {
+	font-family : verdana,arial,helvetica;
+	font-size : 10pt;
+	color: #ffffff;
+	background-color: #333333;
+	font-weight: bold;
+}
+
+/* ********************************************************************************/
+/* ***** CSS que definen el color de la fila en la agenda según su estatus ********/
+/* **********************************************************************************************/
+/* ***************** Inicio (059) ***************************************************************/
+/* **********************************************************************************************/
+.VERDE{
+	background-color: #90EE90;
+}
+
+.AMARILLO{
+	background-color: #FFFF67;
+}
+
+.ROJO{
+	background-color: #FF4C4C;
+}
+
+.AZUL{
+	background-color: #5050FF;
+}
+
+.NARANJA{
+	background-color: #FFA500;
+}
+/* **********************************************************************************************
+// ***************** Fin (059) ***************************************************************
+// ***********************************************************************************************/

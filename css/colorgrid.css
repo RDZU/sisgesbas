@@ -1,0 +1,105 @@
+.SinExp{
+          background-color: #00FF00 !important;
+    }
+.Cancelado{
+          background-color: #FF0000 !important;
+    }
+    
+.rowBezahlt .x-grid-cell {
+    background-color: #81F781 !important;
+    color:white;
+}
+.rowUnbezahlt .x-grid-cell {
+}
+.rowBezahltUndGewogen .x-grid-cell {
+    background-color: #088A08 !important;
+    color:white;
+}
+
+.male-cell { 
+    background: url(/static/lib/silk/user.png) no-repeat 2px 1px; 
+    padding-left: 16px; 
+} 
+ 
+.female-cell { 
+    background: url(/static/lib/silk/user_female.png) no-repeat 2px 1px; 
+    padding-left: 16px; 
+}
+
+.child-row .x-grid-cell { 
+    background-color: #ffe2e2; 
+    color: #900; 
+} 
+ 
+.adult-row .x-grid-cell { 
+    background-color: #e2ffe2; 
+    color: #090; 
+}
+
+.x-grid-row .custom-column { 
+    background-color: #ecf; 
+    color: #090; 
+    font-weight: bold; 
+}
+
+.pre .x-grid-cell {
+    background-color: #fcff33 !important;
+    color:black;
+    font-weight: bold;
+}
+
+.pro .x-grid-cell {
+    background-color: #46ff33 !important;
+    color:black;
+    font-weight: bold;
+}
+
+.rec .x-grid-cell {
+    background-color: #ed1c1c !important;
+    color:black;
+    font-weight: bold;
+}
+
+.ccancelado .x-grid-cell {
+    background-color: #DF13EA !important;
+    color:black;
+    font-weight: bold; 
+}
+
+.cvip .x-grid-cell {
+    background-color: #F2F512 !important;
+    color:black;
+    font-weight: bold; 
+}
+
+.ccompletado .x-grid-cell {
+    background-color: #30F512 !important;
+    color:black;
+    font-weight: bold; 
+}
+
+.cpendiente .x-grid-cell {
+    background-color: #FC0D1D !important;
+    color:white;
+    font-weight: bold; 
+}
+
+.csuspendido .x-grid-cell {
+    background-color: #0DFCFC !important;
+    color:black;
+    font-weight: bold; 
+}
+
+.cvencido .x-grid-cell {
+    background-color: #979999 !important;
+    color:black;
+    font-weight: bold; 
+}
+
+.cvip .x-grid-cell {
+    background-color: #F6CEF5 !important;
+    color:black;
+    font-weight: bold;
+}
+
+

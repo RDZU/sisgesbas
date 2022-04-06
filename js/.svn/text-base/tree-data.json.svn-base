@@ -1,0 +1,53 @@
+{ 
+text: '.',
+children: [{
+    text:'Opciones',
+    expanded: true,
+    children:[{
+        text:'Principal',
+        id:'principal',
+        leaf:true
+    },{
+        text:'Convenios',
+        id:'convenios',
+        leaf:true
+    }]
+},{
+    text:'Estadisticas',
+    children:[{
+        text:'Resumen Ejecutivo',
+        id:'resumenEjecutivo',
+        leaf:true
+    },{
+        text:'Ejecutivo Master',
+        id:'ejecutivoMaster',
+        leaf:true
+    },{
+        text:'Disponibilidad',
+        id:'disponibilidad',
+        leaf:true
+    }]
+},{
+    text:'Inventario',
+    children:[{
+        text:'CDA',
+        id:'cda',
+        leaf:true
+    },{
+        text:'Rubros',
+        id:'rubros',
+        leaf:true
+    },{
+        text:'Categorias',
+        id:'categorias',
+        leaf:true
+    }]
+},{
+    text:'Administracion',
+    children:[{
+        text:'Usuarios',
+        id:'usuarios',
+        leaf:true
+    }]
+}]
+}

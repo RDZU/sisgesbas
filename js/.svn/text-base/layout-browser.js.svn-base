@@ -1,0 +1,114 @@
+//
+// This is the main layout definition.
+//
+Ext.onReady(function(){
+ 
+    Ext.tip.QuickTipManager.init();
+
+    // This is an inner body element within the Details panel created to provide a "slide in" effect
+    // on the panel body without affecting the body's box itself.  This element is created on
+    // initial use and cached in this var for subsequent access.
+    var detailEl;
+    
+    // Gets all layouts examples
+    var layoutExamples = [];
+    Ext.Object.each(getBasicLayouts(), function(name, example) {
+        layoutExamples.push(example);
+    });
+    
+    
+    // This is the main content center region that will contain each example layout panel.
+    // It will be implemented as a CardLayout since it will contain multiple panels with
+    // only one being visible at any given time.
+
+    var contentPanel = {
+         id: 'content-panel',
+         region: 'center', // this is what makes this panel into a region within the containing layout
+         layout: 'card',
+         margins: '80 5 5 0',
+         activeItem: 0,
+         border: true,
+         items: layoutExamples
+    };
+     
+    var store = Ext.create('Ext.data.TreeStore', {
+        root: {
+            expanded: true
+        },
+        proxy: {
+            type: 'ajax',
+            url: '/cyscon/js/tree-data.json'
+        }
+    });
+    
+    // Go ahead and create the TreePanel now so that we can use it below
+     var treePanel = Ext.create('Ext.tree.Panel', {
+        id: 'tree-panel',
+        title: 'Menú de Navegación',
+        region:'north',
+        split: true,
+        height: 360,
+        minSize: 150,
+        rootVisible: false,
+        autoScroll: true,
+        store: store
+    });
+    
+    // Assign the changeLayout function to be called on tree node click.
+    treePanel.getSelectionModel().on('select', function(selModel, record) {
+        if (record.get('leaf')) {
+            //alert(record.getId() + '-panel');
+            Ext.getCmp('content-panel').layout.setActiveItem(record.getId() + '-panel');
+             if (!detailEl) {
+                var bd = Ext.getCmp('details-panel').body;
+                bd.update('').setStyle('background','#fff');
+                detailEl = bd.createChild(); //create default empty div
+            }
+            //alert(record.getId() + '-details');
+            detailEl.hide().update(Ext.getDom(record.getId() + '-details').innerHTML).slideIn('l', {stopAnimation:true,duration: 200});
+        }
+    });
+
+
+    // This is the Details panel that contains the description for each example layout.
+    var detailsPanel = {
+        id: 'details-panel',
+        title: 'Detalles',
+        region: 'center',
+        bodyStyle: 'padding-bottom:15px;background:#eee;',
+        autoScroll: true,
+        html: '<p class="details-info">Bienvenido. Seleccione las opciones del menú al lado Izquierdo.</p>'
+    };
+ 
+   
+    // Finally, build the main layout once all the pieces are ready.  This is also a good
+    // example of putting together a full-screen BorderLayout within a Viewport.
+    Ext.create('Ext.Viewport', {
+        layout: 'border',
+        title: 'CONSTRUPATRIA',
+        items: [
+        /*{
+            xtype: 'box',
+            id: 'header',
+            region: 'north',
+            //html: '<table width="100%" ><tr><td width="50%"><img src="../img/banner_construpatria.jpg"></td><td width="50%" ><h2>Bienvenido '+sessiones()+'<div id="nombreCompleto">Aqui</div>al Sistema CYSCON!</h2></td></tr></table>',
+            html: detailsHtml,
+           //contentEl: 'start-div',
+            height: 80
+        },*/{
+            layout: 'border',
+            id: 'layout-browser',
+            region:'west',
+            border: false,
+            split:true,
+            margins: '80 0 5 5',
+            width: 180,
+            minSize: 100,
+            maxSize: 500,
+            items: [treePanel, detailsPanel]
+        }, 
+            contentPanel
+        ],
+        renderTo: Ext.getBody()
+    });
+});

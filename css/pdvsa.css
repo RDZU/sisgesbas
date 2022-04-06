@@ -1,0 +1,793 @@
+/*Contenedores principales*/
+
+BODY {
+	margin:0;
+	text-align:center;
+}
+
+#Main {
+	text-align:left;
+	margin:0 auto;
+	width:810px;
+	height: 100%;
+}
+
+/*Encabezado*/
+
+DIV#Main-header {
+	height:72px;
+	width:780px;
+	margin-top: 0px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 15px;
+}
+
+#Main-Logo {
+background-image:url(../imagenes/logo_gasComunal.png);
+background-repeat:no-repeat;
+float:left;
+margin:0;
+padding:0;
+height:70px;
+width:170px;
+}
+#Main-Logo2 {
+/*background-image:url(../imagenes/logo_sigrrhh.png);*/
+background-repeat:no-repeat;
+float:right;
+margin:0;
+padding:0;
+height:50px;
+width:129px;
+}
+
+#Contenedor-Degradado {
+float:left;
+height:20px;
+margin:29px 0 0;
+width:605px;
+}
+
+#Logo-Continuacion {
+background-image:url(../imagenes/degradacion_roja-aux.png);
+float:left;
+height:20px;
+margin:0;
+width:595px;
+}
+
+#Nombre-Aplicacion {
+font-family:Arial, sans-serif;
+font-size:16px;
+margin:1px 0 0;
+color:#FFF;
+float:right;
+}
+
+#Logo-Final {
+background-image:url(../imagenes/esquina_redonda_roja.png);
+float:left;
+height:20px;
+margin:0;
+width:10px;
+}
+
+/*Cuerpo principal*/
+
+	/*-Sombras de izquierda y derecha-*/
+#Main-BackCuerpoLeft {
+background-image:url(../imagenes/sombrapaginaD.png);
+background-position:left;
+float:left;
+width:810px;
+}
+
+#Main-BackCuerpoRight {
+background-image:url(../imagenes/sombrapaginaI.png);
+background-position:right;
+float:left;
+width:810px;
+}
+
+.Contenedor-con-sombra {
+background-repeat:repeat-y;
+border-style:none;
+margin:0;
+padding:0;
+}
+
+	/*-Contenedor principal del cuerpo-*/
+
+#Main-Cuerpo {
+margin:0 0 0 15px;
+padding:0;
+width:780px;
+}
+
+/**Barra de bienvenida**/
+
+#Main-Identificador_usuario {
+background-image:url(../imagenes/degradadoBien.png);
+}
+
+#Main-Usuario {
+margin:3px 0 0 15px;
+float:left;
+width:535px;
+}
+
+#Main-Fecha {
+float:right;
+margin:3px 15px 0 0;
+text-align:right;
+width:200px;
+}
+
+.Texto-Identificador {
+height:15px;
+color:#666;
+font-family:Arial, sans-serif;
+font-size:11px;
+text-decoration:none;
+}
+
+/**Barra de traza o miga de pan**/
+
+#EsquinaBreadDerecha {
+background-image:url(../imagenes/esquinader.gif);
+float:right;
+height:27px;
+width:10px;
+}
+
+#Main-Traza {
+float:left;
+background-color:#666;
+color:#FFF;
+height:20px;
+width:770px;
+}
+
+#Main-Traza-aux {
+background-repeat:no-repeat;
+float:left;
+background-image:url(../imagenes/imagen_superior_menu.gif);
+color:#FFF;
+height:20px;
+width:170px;
+}
+
+#Main-breadcrumbs {
+height:27px;
+width:780px;
+}
+
+/**Zona principal y menu**/
+
+#Vista {
+	background-position:169px;
+	background-image:url(../imagenes/fondo.png);
+	background-repeat:repeat-y;
+	float:left;
+	margin:-7px 0 0;
+	width: 780px;
+}
+
+/***Menu***/
+
+#Menu {
+background-image:url(../imagenes/degradacion.gif);
+background-repeat:repeat-x;
+height:653px;
+width:169px;
+}
+
+.Contenedor-Texto-Menu {
+color:#333;
+display:inline;
+float:left;
+margin:5px 0 0 8px;
+padding:0;
+text-align:left;
+text-decoration:none;
+width:159px;
+}
+
+.Contenedor-Texto-Menu:hover {
+background-image:url(../imagenes/flecha.gif);
+background-repeat:no-repeat;
+color:#C00;
+}
+
+.Contenedor-Texto-sub-Menu {
+color:#666;
+float:left;
+margin:3px 0 0 20px;
+padding:0;
+text-align:left;
+text-decoration:none;
+width:139px;
+}
+
+.Contenedor-Texto-sub-Menu:hover {
+background-image:url(../imagenes/flechita.gif);
+background-repeat:no-repeat;
+color:#C00;
+}
+
+.Text-menu {
+font-family:Arial, sans-serif;
+font-size:12px;
+margin:0 0 0 12px;
+}
+
+.PuntoHo_Cortico {
+background-image:url(../imagenes/puntoHo.gif);
+background-repeat:repeat-x;
+float:left;
+height:15px;
+margin:10px 0 -10px 15px;
+width:140px;
+}
+
+/***Contenido***/
+
+DIV#Region-Editable {
+margin:0 0 15px 15px;
+width:595px;
+}
+
+h1 {
+color:#C00;
+font-family:Arial, sans-serif;
+font-size:12px;
+font-weight:bold;
+margin:20px 0 0 0;
+padding:0;
+text-align:left;
+width:570px;
+}
+
+h2 {
+color:#666;
+font-family:Arial, sans-serif;
+font-size:12px;
+font-weight:bold;
+margin:0;
+padding:0;
+text-align:left;
+text-decoration:none;
+width:570px;
+}
+
+.Texto {
+color:#666;
+float:left;
+font-family:Arial, sans-serif;
+font-size:12px;
+margin:0;
+padding:0;
+text-align:left;
+text-decoration:none;
+width:570px;
+}
+.Titulo-Aplicacion {
+color:#C00;
+float:left;
+font-family:Arial, sans-serif;
+font-size:12px;
+font-weight:bold;
+margin:20px 0 0;
+padding:0;
+text-align:left;
+width:500px;
+}
+.Titulo-Aplicacion-2 {
+color:#C00;
+float:left;
+font-family:Arial, sans-serif;
+font-size:12px;
+font-weight:bold;
+margin:20px 0 0;
+padding:0;
+text-align:left;
+width:300px;
+}
+
+.Sub-Titulo-Aplicacion {
+color:#666;
+/*display:inline;*/
+float:left;
+font-family:Arial, sans-serif;
+font-size:12px;
+font-weight:bold;
+margin:0;
+padding:0;
+text-align:left;
+text-decoration:none;
+width:570px;
+}
+hr.Separador_Modulo {
+background-image:url(../imagenes/separador_modulo.png);
+background-repeat:no-repeat;
+margin:4px 0 4px 0;
+line-height:2px;
+height:2px;
+border:none;
+padding:0;
+width:580px;
+}
+
+/***-Calendario-***/
+
+.Boton-Calendario {
+background-image:url(../imagenes/boton_date.png);
+background-repeat:no-repeat;
+border-style:none;
+float:left;
+height:15px;
+margin:10px 10px 0 0;
+padding:0;
+width:16px;
+}
+
+.Contenedor-Fondo-Calendario {
+background-color:#E8E8E8;
+background-repeat:no-repeat;
+border-color:#999;
+border-style:double;
+border-width:1px;
+float:left;
+height:157px;
+margin:10px 0 0;
+padding:0;
+width:185px;
+}
+
+.Contenedor-Seleccion {
+background-repeat:no-repeat;
+border-style:none;
+float:left;
+height:32px;
+margin:0;
+padding:0;
+width:185px;
+}
+
+#Anio {
+margin:10px 0 0 10px;
+width:60px;
+}
+
+#Mes {
+width:105px;
+}
+
+#Dia-actual {
+color:#C00;
+font-weight:700;
+}
+
+#Dia-actual:hover {
+background-color:#C00;
+color:#FFF;
+cursor:pointer;
+font-weight:700;
+}
+
+.Contenedor-Semana {
+background-color:#999;
+float:left;
+height:20px;
+margin:5px 0 7px 5px;
+width:175px;
+}
+
+.Contenedor-dia {
+height:20px;
+margin:0;
+padding:0 0 0 5px;
+width:175px;
+}
+
+.Dias-Semana {
+display:inline;
+float:left;
+height:90px;
+margin:0;
+padding:0;
+text-decoration:none;
+width:24px;
+}
+
+.Texto-Dia {
+color:#333;
+display:inline;
+float:left;
+height:18px;
+margin:0 0 0 2px;
+padding:0;
+text-decoration:none;
+width:20px;
+}
+
+.Texto-Dia-aux {
+display:inline;
+float:left;
+font-family:Arial, sans-serif;
+font-size:12px;
+margin:0 0 0 2px;
+padding:0;
+text-align:right;
+width:15px;
+}
+
+.Texto-Dia:hover {
+background-color:#C00;
+color:#FFF;
+cursor:pointer;
+font-weight:700;
+}
+
+.Texto-Semana {
+color:#fff;
+display:inline;
+float:left;
+font-family:Arial, sans-serif;
+font-size:12px;
+font-weight:bold;
+margin:2px 0 0;
+padding:0;
+text-align:right;
+text-decoration:none;
+width:24px;
+}
+
+.Fondo-puntoVe {
+background-image:url(../imagenes/puntoVe.gif);
+background-repeat:repeat-y;
+float:left;
+height:90px;
+margin:0;
+width:1px;
+}
+
+/***-Listados-***/
+
+.Lista-Aplicacion {
+background-repeat:no-repeat;
+border-style:none;
+float:left;
+margin:10px 0 0;
+padding:0;
+width:580px;
+}
+
+.Lista-Fondo-Claro {
+background-color:#FFF;
+float:left;
+width:580px;
+}
+
+.Lista-Elemento-Claro-primero {
+background-color:#FFF;
+float:left;
+height:20px;
+width:238px;
+}
+
+.Lista-Elemento-Claro-segundo {
+background-color:#FFF;
+float:left;
+height:20px;
+margin:0 0 0 1px;
+width:170px;
+}
+
+.Lista-Elemento-Claro-tercero {
+background-color:#FFF;
+float:left;
+height:20px;
+margin:0 0 0 1px;
+width:170px;
+}
+
+.Lista-Fondo-Oscuro {
+background-color:#CCC;
+float:left;
+width:580px;
+}
+
+.Lista-Elemento-Oscuro-primero {
+background-color:#E8E8E8;
+float:left;
+height:20px;
+width:238px;
+}
+
+.Lista-Elemento-Oscuro-segundo {
+background-color:#E8E8E8;
+float:left;
+height:20px;
+margin:0 0 0 1px;
+width:170px;
+}
+
+.Lista-Elemento-Oscuro-tercero {
+background-color:#E8E8E8;
+float:left;
+height:20px;
+margin:0 0 0 1px;
+width:170px;
+}
+
+/***-Formularios-***/
+
+.Contenedor-Formulario {
+float:left;
+margin:15px 0 0;
+padding:5px 0 0 10px;
+width:570px;
+}
+
+.Contenedor-Elemento-Formulario {
+margin:10px 0 0;
+padding:0;
+float:left;
+width:567px;
+}
+
+#Contenedor-Elemento-Formulario-aux {
+height:auto;
+margin:10px 0 0;
+float:left;
+width:567px;
+}
+
+.Sub-Titulo-Formulario {
+	color:#666;
+	display:inline;
+	float:left;
+	font-family:Arial, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+	text-align:left;
+	width: 455px;
+}
+
+.Texto-Formulario {
+color:#666;
+/*display:inline;*/
+font-family:Arial, sans-serif;
+font-size:12px;
+font-weight:700;
+height:15px;
+margin:0;
+padding:0;
+text-align:left;
+text-decoration:none;
+width:400px;
+}
+
+/*.input-style, INPUT {
+border-color:#CCC;
+border-style:double;
+border-width:1px;
+color:#333;
+display:inline;
+font-family:Arial, sans-serif;
+font-size:11px;
+text-align:left;
+}
+
+.input-style
+{
+margin-right:5px;
+width:200px;
+}
+
+SELECT {
+border-color:#CCC;
+border-style:double;
+border-width:1px;
+color:#333;
+display:inline;
+font-family:Arial, sans-serif;
+font-size:11px;
+height:20px;
+margin:10px 0 0 5px;
+padding:0;
+}
+*/
+/*TEXTAREA {
+border-color:#CCC;
+border-style:double;
+border-width:1px;
+color:#333;
+font-family:Arial, sans-serif;
+font-size:11px;
+height:20px;
+margin:10px 0 0 5px;
+padding:0;
+}
+*/
+	/*-Boton-*/
+
+.Principio-Boton {
+background-image:url(../imagenes/esquina_izquierda_botones.gif);
+background-repeat:no-repeat;
+border-style:none;
+float:left;
+height:20px;
+margin:0 -5px 0 0;
+padding:0;
+width:10px;
+}
+
+.Boton {
+background-image:url(../imagenes/fondo_boton.png);
+border:none;
+border-style:none;
+color:#666;
+display:inline;
+float:left;
+font-family:Arial, sans-serif;
+font-size:12px;
+font-weight:bold;
+height:20px;
+margin:0 -7px 0 0;
+text-align:center;
+text-decoration:none;
+width:auto;
+}
+
+.Final-Boton {
+background-image:url(../imagenes/esquina_derecha_botones.gif);
+background-repeat:no-repeat;
+border-style:none;
+float:left;
+height:20px;
+margin:0 10px 0 0;
+padding:0;
+width:10px;
+
+}
+
+
+/***-Tablas-***/
+
+.Contenedor-Tabla
+{
+float:left;
+}
+
+TABLE.Tabla-Aplicacion {
+margin:15px 0 0;
+padding:0;
+width:570px;
+border:none;
+}
+
+TABLE.Tabla-Aplicacion TR {
+height:20px;
+margin:0 0 1px;
+padding:0;
+}
+
+TABLE.Tabla-Aplicacion TH {
+background-color:#999;
+color:#FFF;
+font-family:Arial, sans-serif;
+font-size:12px;
+font-weight:bold;
+height:17px;
+margin:0 1px 0 0;
+padding:3px 0 0;
+text-align:center;
+width:180px;
+}
+/*
+TABLE.Tabla-Aplicacion TD {
+background-color:#E8E8E8;
+color:#333;
+font-family:Arial, sans-serif;
+font-size:12px;
+height:17px;
+margin:0 1px 0 0;
+padding:3px 0 0 10px;
+text-align:left;
+width:170px;
+}
+*/
+/*Pie de pagina*/
+
+DIV#Main-Contenedor-footer {
+display:inline;
+float:left;
+margin:0 0 0 15px;
+}
+
+/*Estilos generales*/
+
+.Contenedor-con-Imagen, .Contenedor {
+border-style:none;
+margin:0;
+padding:0;
+}
+
+.Contenedor-con-Bordes {
+border-collapse:inherit;
+border-color:#C00;
+border-style:solid none none;
+border-width:1px;
+height:20px;
+margin:0;
+padding:0;
+width:780px;
+}
+
+.Contenedor-Editable {
+background-repeat:no-repeat;
+float:left;
+}
+
+A:hover {
+cursor:pointer;
+}
+
+IMG {
+border-style:none;
+}
+
+.check-style {
+border-width:0;
+float:left;
+}
+
+.contenido {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+}
+
+.contenido_2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+.contenido_22 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	color: #000000;
+}
+
+.contenido_titulo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #990000;
+	font-weight:bold;
+}
+.contenido_info {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #cc0000;
+	font-weight:bold;
+}
+
+.contenido_blanco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #ffffff;
+	font-weight:bold;
+}
+.link_azul_bold {
+	FONT-SIZE: 9px; 
+	COLOR: #990000; 
+	FONT-STYLE: normal; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	TEXT-DECORATION: none;
+}

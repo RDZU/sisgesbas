@@ -1,0 +1,328 @@
+/* CSS Document */
+
+p {
+color:#666;
+font-family:Arial, sans-serif;
+font-size:12px;
+margin:0;
+padding:0;
+text-align:inherit;
+float:none;
+}
+
+p a{ color:#CC0000; text-decoration:none;}
+p a:hover{ text-decoration:underline; }
+
+label { }
+label input { vertical-align:text-bottom; margin-right:2px; }
+
+p.MensajeError {
+	color:#CC0000;
+	font-size:11px;
+}
+input, select, textarea {
+	float: none;
+}
+
+input.SimpleText { width:200px; padding:2px; vertical-align:middle;}
+select.SimpleSelect {margin-top: 0px; width: 200px; padding:1px; vertical-align:middle;}
+
+#FormLogin {
+	border:1px solid #999999;
+	width: 400px;
+	padding:5px; 
+}
+
+form.FormCaso {
+	border:1px solid #999999; 
+	background-color:#EEEEEE;
+}
+
+div.DivCampoHtml{ 
+	padding-top:10px; 
+	width: 49%; 
+	float:left; 
+  	min-height: 35px;
+  	height: auto !important;
+  	height: 35px;
+}
+div.DivCampoHtmlAmplio, div.DivCampoHtmlBuscador { width: 95%; }
+
+div.DivCampoHtmlAlto{ height: 75px}
+
+div.CheckControl label.Texto { margin-top:15px;}
+
+div.DivCampoHtml * { margin:0px; padding:0px;}
+
+div.DivCampoHtml input.EditControl {padding:2px; vertical-align:middle; width: 95%; }
+
+div.DivCampoHtml input.SearchControl {padding:2px; vertical-align:middle; width: 95%;}
+
+div.DivCampoHtml input.DateTimeControl {padding:2px; vertical-align:middle; width:80%; }
+
+table.tablaCampoBusqueda { width: 95%; display:block; }
+
+td.campo_busqueda {}
+
+td.mensaje_busqueda {
+	margin:0px;
+	color:#666;
+	font-family:Arial, sans-serif;
+	font-size:12px;
+	background-color:#FFFFEC; 
+	border:1px solid #999999; 
+	padding:1px; 
+}
+
+td.mensaje_busqueda select { width:98%; }
+
+td.mensaje_busqueda p { width:auto: }
+
+
+td.valores_seleccionados {
+	margin:0px;
+	color:#666;
+	font-family:Arial, sans-serif;
+	font-size:12px;
+	background-color:#FFFFEC; 
+	border:1px solid #999999; 
+	padding:1px; 
+	margin-left:5px;
+}
+
+td.valores_seleccionados select { height:auto;}
+
+div.DivCampoHtml select {width: 95%;}
+
+div.DivCampoHtml textarea { padding:2px; width: 95%; height: 60px; }
+
+.LabelCampoHtml{ font-family:Arial; font-size:12px; color:#333333; font-weight:bold; }
+
+div.ContenedorFormularioGenerico { 
+}
+
+form.FormularioGenerico { /*padding:5px;*/}
+
+div.GrupoGenerico {
+	margin-right:10px;  
+	margin-top:10px;
+	border:1px solid #999999; 
+	display:block;
+	padding:0px;
+	clear:both;
+}
+
+div.EncabezadoGrupoGenerico {
+	background-color:#EEEEEE; 
+	margin: 0px;
+	border-bottom:1px solid #999999; 
+	padding: 4px;
+}
+
+p.NombreGrupoGenerico {
+	margin:0px;
+	padding:0px;
+	color:#555;
+	font-family:Arial, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+	text-align:left;
+	text-decoration:none;	
+}
+
+p.DescripcionGrupoGenerico {
+	margin:0px;
+	padding:0px;
+	color:#666;
+	font-family:Arial, sans-serif;
+	font-size:11px;
+	margin:0;
+	padding:0;
+	text-align:left;
+	text-decoration:none;
+}
+
+div.ContenidoGrupoGenerico {
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom:5px;
+}
+
+div.ContenedorEnviarFormularioGenerico {
+	margin: 0px;
+	padding: 4px;
+}
+
+.ElementoOculto {
+	border: none;
+	display:none;
+	visibility:hidden;
+}
+
+.ElementoOpcional{
+	visibility:hidden;
+	display:none;
+}
+
+select.ResultadoBusqueda {
+	height:150px;	
+	clear:both;
+	z-index:103;
+}
+
+.tituloCampo {
+	margin:0px;
+	padding:0px;
+	color:#555;
+	font-family:Arial, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	text-align:left;
+	vertical-align:top;	
+}
+
+.valorCampo {
+	margin:0px;
+	padding:0px;
+	color:#555;
+	font-family:Arial, sans-serif;
+	font-size:11px;
+	text-align:left;
+	vertical-align:top;	
+}
+
+.EncabezadoOperacionesActividad {
+	
+}
+
+table td.EncabezadoDetallesActividad{
+	padding-left:2px;
+	font-family:Arial, sans-serif;
+	font-size:11px;
+	color:#555555;
+	height: 20px;
+}
+
+a.botonOperacionActividad{
+}
+
+div.EncabezadoActividadLista {
+	background-color:#EEEEEE; 
+	margin: 0px;
+	margin-top:4px;
+	border:background-color:#EEEEEE;
+	cursor:pointer;
+}
+
+div.DetalleListaActividad {
+	background-color:#FFFFFF;
+}
+
+table.TablaDetalleActividad {
+	border-collapse:collapse;
+}
+
+table.TablaDetalleActividad td {
+	padding-left:2px;
+	font-family:Arial, sans-serif;
+	font-size:11px;
+	color:#555555;	
+	border: 1px solid #EEEEEE;
+}
+
+.cerrarBusqueda { margin-left:2px;}
+
+td.ColapsoGrupo { text-align:right; vertical-align:bottom; border:1px sold solid #000000; }
+
+.ColapsoGrupo a { 
+	font-family:Arial, sans-serif;
+	font-size:11px;
+	color:#CC0000;
+	text-decoration: none;
+}
+
+.ColapsoGrupo a:hover { text-decoration:underline }
+
+.TablaResultados { margin:10px 10px 10px 1px;  border: 1px solid:#999999; border-collapse:collapse; font-size:11px; font-family:Arial, Helvetica, sans-serif; font-weight:normal; color:#333333;}
+.TablaResultados td, .TablaResultados th{ border: 1px solid #999999; padding:4px; vertical-align:top; }
+.TablaResultados th{ background-color:#EEEEEE; color:#555; font-weight:bold;}
+.TablaResultados a, .TablaResultados a:visited { color:#990000; text-decoration:none; }
+.TablaResultados a:hover { text-decoration:underline; }
+
+.EscritorioTextoUbicacion{
+	font-family:Arial, sans-serif;
+	font-size:11px;
+	color:#333333;
+	text-decoration: none;
+	text-align:right;
+	margin:2px;
+}
+
+.EscritorioTextoUbicacion a{ color:#CC0000; text-decoration:none;}
+.EscritorioTextoUbicacion a:hover{ text-decoration:underline; }
+
+div.EncabezadoCasosBandeja{
+	padding:4px;
+	margin-top:4px;
+	font-family:Arial, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	background-color:#EEEEEE;
+}
+
+div.EncabezadoCasosBandeja a, div.EncabezadoCasosBandeja a:visited{ color:#990000; text-decoration:none; }
+div.EncabezadoCasosBandeja a:hover { text-decoration:underline; }
+td.CeldaBotonCerrar { padding-left:4px;}
+.OpcionResponsable { font-weight:bold; color:#990000; }
+
+#BandejaMisCasos {
+	font-family:Arial, sans-serif;
+	font-size:12px;
+}
+
+table.TablaBandeja {
+margin:0px; 
+border: 1px solid:#999999; 
+border-collapse:collapse; 
+}
+
+.TablaBandeja {
+  font-family:Arial, sans-serif;
+  font-size:11px;
+}
+
+.TablaBandeja td, .TablaBandeja th{ 
+	padding:2px;
+	font-family:Arial, sans-serif;
+	font-size:11px;
+	color:#555555;	
+	font-weight:normal; 	
+	border: 1px solid #EEEEEE;
+	vertical-align:top;
+}
+
+.TablaBandeja th{ color:#555; font-weight:bold;}
+
+.TablaBandeja a, .TablaBandeja a:visited { color:#990000; text-decoration:none; font-weight:bold; }
+.TablaBandeja a:hover { text-decoration:underline; }
+td.CeldaResaltada { color:#000000; }
+
+.CuadroColorPrioridad { width:16px; height:16px; margin:0px; padding:0px; border:1px solid #666666;} 
+
+.PrioridadHabitual { background-color:#FFFFFF; color:#333333 }
+.PrioridadHabitualUrgente { background-color:#FFFF99; color:#000000 }
+.PrioridadImportante { background-color:#FF9933; color:#000000 }
+.PrioridadImportanteUrgente { background-color:#990000; color:#FFFFFF }
+.TituloEstadisticasCorporativo, .TituloEstadisticasPrioridad { font-size:11px; color:#990000; font-weight:bold; } 
+.CeldaProcesoCorporativo { font-weight:bold;}
+td.EstiloAntiguedad4 { background-color:#CC0000; color:#FFFFFF;}
+td.EstiloAntiguedad4 p { color:#FFFFFF }
+td.EstiloAntiguedad4 a { color:#FFFFCC }
+
+td.SoloBordeTop { border:none; border-top:1px solid #EEEEEE;} 
+td.SoloBordeBottom { border:none; border-bottom:1px solid #EEEEEE;} 
+td.SoloBordeLeft { border:none; border-left:1px solid #EEEEEE;} 
+td.SoloBordeRight { border:none; border-right:1px solid #EEEEEE;} 
+
