@@ -1,76 +1,39 @@
 
-<img src="https://mega.nz/file/ZRc0yZKQ#yGL3KlTBsAyvniuExA49AiHLlX_jSbIMNKyWUx_q6lA">
-![alt text](http://url/to/img.png)
+## Sisgesbas
+
+SISGESBAS es un sistema de informacion web desarrollo para el control y gestion del mantenimiento de la platatorma de escritorio de REfinacion Oriente
+
+A continuacion se muestran algiunas de las interfaces del sistema:
+
+
+### Interfaz Calendario de Tareas
+En interfaz Calendario de Tareas, en esta interfaz los actores pueden visualizar en el calendario, las tareas de mantenimiento que todavía no se han realizado.
+
+<img src="https://i.ibb.co/wWhghdR/Calendario-de-Tareas.png" alt="Calendario-de-Tareas" border="0">
+
+
+### Interfaz Planificación de Mantenimiento
+A través de esta interfaz el usuario puede visualizar el estado de los mantenimientos disponibles en el sistema, así como también crear y reprogramar mantenimientos preventivos de los activos. 
+
+<img src="https://i.ibb.co/6HZdbzv/Planificacion-de-mtto.png" alt="Planificacion-de-mtto" border="0">
+
+
+### Interfaz Realizar Mantenimiento
+En esta interfaz se visualiza la información necesaria para ejecutar el mantenimiento, en el lado izquierda de la interfaz se muestra la ficha técnica del activo y los detalles de la tarea de mantenimiento y en la parte derecha de la interfaz se muestra en una tabla las herramientas y materiales necesarios para realizar el mantenimiento. 
+
+<img src="https://i.ibb.co/JBmStS2/Interfaz-Realizar-mtto.png" alt="Interfaz-Realizar-mtto" border="0">
+
+
+### Interfaz Servicio de Impresión Nagios
+En  la interfaz Servicio de Impresión Nagios, en esta interfaz se puede obtener por meses las variables de impresión de un servicio.
+
+<img src="https://i.ibb.co/26bzG5x/Servicio-de-Impresion-Nagios.png" alt="Servicio-de-Impresion-Nagios" border="0">
+
+### Interfaz Registro de Mantenimiento
+Esta interfaz permite la creación del mantenimiento preventivo a los activos, al momento de crear un registro de mantenimiento el usuario deberá establecer el nivel de mantenimiento, así como también la frecuencia que se aplicara el mantenimiento, sin la necesidad de establecer la fecha del mantenimiento, ya que esta acción se realiza en la interfaz planificación de mantenimiento.  
+
+<img src="https://i.ibb.co/QQQNW9H/Registro-de-Mtto.png" alt="Registro-de-Mtto" border="0">
 
 
 
-###################
-What is CodeIgniter
-###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
-
-*******************
-Release Information
-*******************
-
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
-
-**************************
-Changelog and New Features
-**************************
-
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
-
-*******************
-Server Requirements
-*******************
-
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
-
-************
-Installation
-************
-
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community IRC <https://webchat.freenode.net/?channels=%23codeigniter>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
